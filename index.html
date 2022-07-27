@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nomus: Helping you reach your investing goals | Nomus Capital</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+    <script
+      src="https://kit.fontawesome.com/dc47fe1c75.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <a href="#" class="logo">
+          <img
+            class="nomus"
+            src="images/main-logo-white.png"
+            alt=""
+            style="height: 150px; width: 150px"
+          />
+        </a>
+        <div class="toggle"></div>
+      </header>
+      <video src="images/office.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Investing in you.</h2>
+        <h3>That's the value of ownership.</h3>
+        <p>
+          Nomus is known for putting clients first. With recommendations focused
+          on your best interests, our advisors are here to help, not sell.
+        </p>
+        <a href="#">Get personalized advice</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook fa-3x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram fa-3x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter fa-3x"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="">Services</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Team</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Testimonials</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contacts</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
